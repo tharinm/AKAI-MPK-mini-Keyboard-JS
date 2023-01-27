@@ -439,6 +439,12 @@ body #kass a {
 .mpkMini .pads .pad.red {
   background: linear-gradient(-95deg, #E31826, #F4223D);
 }
+
+.border-clicked{
+   border: 2px solid rgb(255, 244, 33);
+}
+
+
 .mpkMini .pads .pad:after {
   border-radius: 0.4em;
   content: "";
