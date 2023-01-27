@@ -1,7 +1,7 @@
 const key = document.querySelectorAll(".key");
 const fskey = document.querySelectorAll(".fs_key");
 //const drum = document.querySelectorAll('text')
-
+//console.log(key)
 
 function playSound(url) {
   console.log(url);
@@ -9,8 +9,8 @@ function playSound(url) {
 }
 
 key.forEach((pianoKey, i) => {
-  const number = i < 10 ? i + 1 : i + 1;
-  const url = "music/key" + number + ".mp3";
+  //const number = i < 10 ? i + 1 : i + 1;
+  const url = "music/key" + (i+1) + ".mp3";
   pianoKey.addEventListener("click", () => playSound(url));
 });
 
